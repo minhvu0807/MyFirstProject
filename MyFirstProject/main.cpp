@@ -1,12 +1,7 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-int main()
-{
-  float grade1 = 85.5; 
-  float grade2 = 100.0;
-  float total, average;
-   total = grade1 + grade2;
-  average = total/2.0 ;  // divide the total by 2.0
-  cout << "The average grade is " << average << endl ;
+int main(){
+  double pi = 3.141592653589 ; 
+  cout<<scientific<<setprecision(4)<<pi<<endl<<-1; 
   return 0;
 }
